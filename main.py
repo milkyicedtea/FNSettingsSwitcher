@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Any
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import sys
 
 from Utils.buttonHandlers import ButtonHandlers

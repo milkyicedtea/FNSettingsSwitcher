@@ -3,8 +3,8 @@ import os
 import re
 from pathlib import Path
 
-import PySimpleGUI as sg
-from PySimpleGUI import Window
+import FreeSimpleGUI as sg
+from FreeSimpleGUI import Window
 from Utils.jsonhandler import JsonHandler
 import Utils.modes as modes
 

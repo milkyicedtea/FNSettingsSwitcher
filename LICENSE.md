@@ -1,7 +1,7 @@
 Copyright © 2025 Cheek
 
 This project uses:
-- PySimpleGUI 4.60.5 (LGPL 3.0)
+- FreeSimpleGUI 5.1.1 (LGPL 3.0)
 
 "Commons Clause" License Condition v1.0
 
