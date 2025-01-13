@@ -13,7 +13,7 @@ A python script to easily change and share your settings with your friends
 ## Run from source
 - Download the latest source code from [the release page](https://github.com/milkyicedtea/FNSettingsSwitcher/releases)
 - Download python from [here](https://www.python.org/downloads/)
-- Install requirements using `pip install -r requirements.txt` or `pip install pysimplegui` (only dependency so far)
+- Install requirements using `pip install -r requirements.txt` or `pip install freesimplegui` (only dependency so far)
 - Run `python main.py`
 
 >[!CAUTION]
