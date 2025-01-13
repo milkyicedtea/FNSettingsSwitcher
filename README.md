@@ -7,7 +7,7 @@ A python script to easily change and share your settings with your friends
 > and I don't own a mac to test functionality, but fortnite runs bad on Mac anyway, right?
 
 ## Usage
-- Download the lastest .exe file from [the release page](https://github.com/milkyicedtea/FNSettingsSwitcher/releases)
+- Download the lastest .exe or setup file from [the release page](https://github.com/milkyicedtea/FNSettingsSwitcher/releases)
 - Run the file and save/load the settings to/from a `.fnss` file
 
 ## Run from source
