@@ -55,7 +55,7 @@ layout = [
 
     [
         sg.Push(),
-        sg.Combo(['', 'Performance', 'Dx 12 Epic/High', 'Dx 11 Epic/High'], readonly = True),
+        sg.Combo(['', 'Performance', 'Dx 12 Epic/High', 'Dx 11 Epic/High'], readonly = True, key = "Mode_Combo"),
         sg.Button('Apply', size = (15, 1), key = "Apply_Included"),
         sg.Push()
     ],
@@ -120,9 +120,9 @@ def main_app():
                 button.load_settings()
 
             elif event == 'Apply_Included':
-                selected_mode = list(value.values())[0]
+                selected_mode = value["Mode_Combo"]
                 button.apply_included(selected_mode)
-                window['ModeTxt'].update(f"You last set your settings to: {JsonHandler.readjson()}", visible = True)
+                window['ModeTxt'].update(f"You last set your settings to: {JsonHandler.readjson()}", visible = JsonHandler.readjson() != "None", pad = ((75, 0), (0, 4)),)
 
 
 if __name__ == "__main__":
